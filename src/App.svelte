@@ -12,6 +12,10 @@
 			<div class="item">Row {i}</div>
 		{/each}
 	</div>
+
+	<div slot="footer">
+		<div class="footer" class:shadow={!!scroller.scroll}>Search pannel</div>
+	</div>
 </Layout>
 
 <style>
